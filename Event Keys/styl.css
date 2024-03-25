@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(https://www.hdcarwallpapers.com/walls/brabus_500_mercedes_benz_s_500_l_4matic_2021_5k_4-HD.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.box {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    color: aqua;
+}
+
+.event {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: 350px;
+    margin-left: 450px;
+}
+
+.eventKey,
+.eventKeyCode,
+.eventCode {
+    width: 150px;
+    height: 50px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-top: 10px;
+    color: aqua;
+}

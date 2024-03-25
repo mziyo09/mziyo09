@@ -1,0 +1,15 @@
+const box = document.getElementById('box')
+const evet = document.getElementById('event')
+const eventKey = document.getElementById('ek')
+const eventKeyCode = document.getElementById('ekc')
+const eventCode = document.getElementById('ec')
+
+document.addEventListener('keydown', (e)=> {
+    eventKey.textContent = ('Key', e.key)
+    eventKeyCode.textContent = ('keyCode', e.keyCode)
+    eventCode.textContent = ('Code', e.code)
+    box.classList.add('d-none')
+    box.classList.remove('d-block')
+    evet.classList.add('d-block')
+    evet.classList.remove('d-none')
+})

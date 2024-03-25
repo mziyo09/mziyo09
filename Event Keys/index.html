@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Keys</title>
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        .d-none {
+            display: none;
+        }
+
+        .d-block {
+            display: block;
+        }
+    </style>
+    <!-- Place the @import statement here -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="box" class="box d-block">
+        <!-- Removed unnecessary <div> -->
+        <h1>Press any key to get the keyCode</h1>
+    </div>
+
+    <div class="d-none event" id="event">
+        <div class="eventKey">
+            <h3 id="ek"></h3>
+        </div>
+        <div class="eventKeyCode">
+            <h3 id="ekc"></h3>
+        </div>
+        <div class="eventCode">
+            <h3 id="ec"></h3>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
